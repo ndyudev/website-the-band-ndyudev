@@ -5,4 +5,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* CSS Container */
+#container {
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+#header {
+    width: 100%;
+    color: #fff!important;
+    background-color: #000;
+    font: 16px Lato, sans-serif;
+    padding: 12px 24px;
+    height: 46px;
+}
 
