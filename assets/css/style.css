@@ -5,19 +5,43 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* CSS Container */
 #container {
-  width: 100%;
-  margin: 0 auto;
+
 
 }
 
 #header {
-    width: 100%;
-    color: #fff!important;
     background-color: #000;
-    font: 16px Lato, sans-serif;
-    padding: 12px 24px;
     height: 46px;
 }
 
+#nav {
+
+}
+
+#nav li {
+  display: inline-block;
+}
+
+#nav .subnav {
+  display: none; 
+}
+
+#nav li a {
+  color: #fff;
+  text-decoration: none; /* Xoa gach chan text */
+  line-height: 46px;
+  padding: 0 24px 24px;
+  display: inline-block;
+}
+
+#nav li:hover a {
+  color: #000;
+  background-color: #ccc;
+}
