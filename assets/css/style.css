@@ -12,6 +12,10 @@ html {
   background-color: #ccc;
 }
 
+.clear {
+  clear: both;
+}
+
 /* CSS Container */
 /* #container {
 
@@ -164,4 +168,24 @@ html {
   line-height: 1.4;
 }
 
+#content .member-list {
+  margin-top: 48px;
+}
 
+#content .member-item {
+  float: left;
+  width: calc(100% / 3);
+  /* width: 33.33333%; */
+  text-align: center;
+}
+
+#content .member-name {
+  font-size: 15px;
+  margin-top: 32px;
+}
+
+#content .member-img {
+  width: 154px;
+  margin-top: 15px;
+  border-radius: 4px;
+}
