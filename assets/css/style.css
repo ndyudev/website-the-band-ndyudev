@@ -16,6 +16,10 @@ html {
   clear: both;
 }
 
+.text-white {
+  color: #fff !important;
+}
+
 /* CSS Container */
 /* #container {
 
@@ -188,4 +192,12 @@ html {
   width: 154px;
   margin-top: 15px;
   border-radius: 4px;
+}
+/* Tour section */
+#content .tour-section {
+  background-color: #000;
+}
+
+#content .section-heading {
+
 }
