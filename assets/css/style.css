@@ -12,6 +12,8 @@ html {
   background-color: #ccc;
 }
 
+/* Common */
+
 .clear {
   clear: both;
 }
@@ -20,7 +22,30 @@ html {
   color: #fff !important;
 }
 
-/* CSS Container */
+.text-center {
+  text-align: center;
+}
+
+.row {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.col {
+  float: left;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.col-half {
+  width: 50%;
+}
+
+.col-thrid {
+  width: 33.33333%;
+}
+
+/* Container */
 /* #container {
 
 } */
@@ -176,13 +201,6 @@ html {
   margin-top: 48px;
 }
 
-#content .member-item {
-  float: left;
-  width: calc(100% / 3);
-  /* width: 33.33333%; */
-  text-align: center;
-}
-
 #content .member-name {
   font-size: 15px;
   margin-top: 32px;
@@ -198,9 +216,9 @@ html {
   background-color: #000;
 }
 
-#content .section-heading {
+/* #content .section-heading {
 
-}
+} */
 
 .tickets-list {
   background-color: #fff;
@@ -240,14 +258,15 @@ html {
   /* margin-top: 32px;
   margin-left: -8px;
   margin-right: -8px; */
-  margin: 32px -8px 48px;
+  margin-bottom: 48px;
+  margin-top: 32px;
 }
 
-.place-item {
+/* .place-item {
   float: left;
   width: 33.33333%;
   padding: 0 8px;
-}
+} */
 
 .place-img {
   width: 100%;
@@ -267,6 +286,7 @@ html {
   padding: 11px 16px;
   display: inline-block;
   margin-top: 15px;
+  cursor: pointer;
 }
 
 .place-buy-btn:hover {
