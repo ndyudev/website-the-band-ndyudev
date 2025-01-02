@@ -55,17 +55,16 @@
                 <div class="row members-list">
                     <div class="col col-thrid text-center">
                         <p class="member-name">Name</p>
-                        <img src="/assets/img/bandmember.jpg" alt="Name" class="member-img">
+                        <img src="./assets/img/bandmember.jpg" alt="Name" class="member-img">
                     </div>
                     <div class="col col-thrid text-center">
                         <p class="member-name">Name</p>
-                        <img src="/assets/img/bandmember.jpg" alt="Name" class="member-img">
+                        <img src="./assets/img/bandmember.jpg" alt="Name" class="member-img">
                     </div>
                     <div class="col col-thrid text-center">
                         <p class="member-name">Name</p>
-                        <img src="/assets/img/bandmember.jpg" alt="Name" class="member-img">
+                        <img src="./assets/img/bandmember.jpg" alt="Name" class="member-img">
                     </div>
-                    <div class="clear"></div>
                 </div>
             </div>
 
@@ -89,7 +88,7 @@
                                 <h3 class="place-heading">New York</h3>
                                 <p class="place-time">Fri 27 Nov 2016</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button href="#" class="place-buy-btn js-buy-tickets">Buy Tickets</button>
+                                <button href="#" class="btn js-buy-tickets">Buy Tickets</button>
                             </div>
                         </div>
 
@@ -99,7 +98,7 @@
                                 <h3 class="place-heading">Paris</h3>
                                 <p class="place-time">Sat 28 Nov 2016</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button href="#" class="place-buy-btn js-buy-tickets">Buy Tickets</button>
+                                <button href="#" class="btn js-buy-tickets">Buy Tickets</button>
                             </div>
                         </div>
 
@@ -109,18 +108,51 @@
                                 <h3 class="place-heading">San Francisco</h3>
                                 <p class="place-time">Sun 29 Nov 2016</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button href="#" class="place-buy-btn js-buy-tickets">Buy Tickets</button>
+                                <button href="#" class="btn js-buy-tickets">Buy Tickets</button>
                             </div>
                         </div>
                     </div>
-                    <div class="clear"></div>
                 </div>
             </div>
             <!-- Contact Section -->
             <div class="content-section">
                 <h2 class="section-heading">CONTACT </h2>
                 <p class="section-sub-heading">Fan? Drop a note!</p>
+
+                <div class="row contact-content">
+                    <div class="col col-half contact-info">
+                        <p><i class="ti-location-pin">Chicaga, US</i></p>
+                        <p><i class="ti-mobile">Phone: +00 151515</i></p>
+                        <p><i class="ti-email">Email: mail@mail.com</i></p>
+                    </div>
+
+                    <div class="col col-half contact-form">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col-half">
+                                    <input type="text" name="" placeholder="Name" required id="" class="form-control">
+                                </div>
+                                <div class="col col-half">
+                                    <input type="email" name="" placeholder="Email" required id="" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row mt-8">
+                                <div class="col col-full">
+                                    <input type="text" name="" placeholder="Message" required id="" class="form-control">
+                                </div>
+                            </div>
+                            <input class="btn mt-16" type="submit" value="SEND" style="float:right">
+                        </form>
+                    </div>
+                </div>
             </div>
+
+            <!-- End Contact Section -->
+
+            <!--Foooter -->
+            <div class="map-section">
+                <img src="./assets/img/map.jpg" alt="Map">
+            </div>  
         </div>
         <div id="footer">
 
@@ -163,12 +195,9 @@
         </div>
 
         <!-- Contact -->
-
     </div>
 
     <script>
-        const buyBtns = document.querySelectorAll('js-buy-tickets')
-
     </script>
 </body>
 </html>
