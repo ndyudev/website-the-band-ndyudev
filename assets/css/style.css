@@ -61,7 +61,12 @@ html {
 
 .mt-16 {
   margin-top: 16px !important;
-} 
+}
+
+.mb {
+  margin-bottom: 48px;
+}
+
 
 /* Container */
 /* #container {
@@ -188,7 +193,7 @@ html {
 
 #content .content-section {
   width: 800px;
-  padding: 64px 0;
+  padding: 64px 0 112px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -276,7 +281,7 @@ html {
   /* margin-top: 32px;
   margin-left: -8px;
   margin-right: -8px; */
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
   margin-top: 32px;
 }
 
@@ -297,7 +302,7 @@ html {
   background-color: #fff;
 }
 
-.place-buy-btn {
+.btn {
   color: #fff;
   background-color: #000;
   text-decoration: none;
@@ -307,9 +312,10 @@ html {
   cursor: pointer;
 }
 
-.place-buy-btn:hover {
+.btn:hover {
   color: #000;
   background-color: #ccc;
+  border: none;
 }
 
 .place-img:hover {
@@ -422,7 +428,6 @@ html {
 
 .contact-content {
   margin-top: 48px;
-
 }
 
 .contact-info {
@@ -445,17 +450,6 @@ html {
   width: 100%;
 }
 
-.form-submit-btn {
-  background-color: #000;
-  color: #fff;
-  border: 1px solid #ccc;
-  padding: 10px 16px;
-  float: right;
-  cursor: pointer;
-  outline: none;
-}
-
-.form-submit-btn:hover {
-  background-color: #ddd;
-  color: #000;
+.map-section {
+  
 }
