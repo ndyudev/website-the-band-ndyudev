@@ -7,19 +7,45 @@
   font-family:'Lato' , sans-serif
 }
 
-.navbar {
-  background-color: #000000;
+/* 
+1. Vị trí
+2. Kích thước
+3. Màu sắc
+4. Kiểu dáng ( kiểu chữ, hình tròn, vuông,... )
+*/
+
+
+/* 
+1. Từ ngoài vào trong
+2. Từ trên xuống dưới
+3. Tổng quan đến chi tiết
+*/
+/* #main {
+
+} */
+
+#header {  
+  height: 46px; /* Cao */
+  background-color: #000;
+  overflow: hidden;
+  height: auto;
 }
 
-.navbar ul li {
+#nav li {
   display: inline-block; /* Nằm trên 1 dòng */
-  margin: 12px 20px;
   list-style: nones;
+  height: 100%;
 }
 
-.navbar ul li a {
+#nav li a {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
   padding: 12px 24px;
+  pad: 12px;
+}
+
+#nav li a:hover {
+  background-color: #ccc;
+  color: #000000;
 }
