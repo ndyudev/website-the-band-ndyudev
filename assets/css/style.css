@@ -4,7 +4,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:'Lato' , sans-serif
+}
+
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* 
@@ -28,24 +32,38 @@
   height: 46px; /* Cao */
   background-color: #000;
   overflow: hidden;
-  height: auto;
 }
 
 #nav li {
   display: inline-block; /* Nằm trên 1 dòng */
   list-style: nones;
-  height: 100%;
 }
 
 #nav li a {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-  padding: 12px 24px;
-  pad: 12px;
+  padding: 24px 24px;
+  line-height: 46px;
 }
 
 #nav li a:hover {
   background-color: #ccc;
   color: #000000;
 }
+
+#nav .subnav {
+  display: none;
+}
+
+/* .subnav li {
+
+}
+
+.subnav li a {
+
+}
+
+.subnav li a:hover {
+
+} */
