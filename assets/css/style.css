@@ -24,27 +24,30 @@ html {
 2. Từ trên xuống dưới
 3. Tổng quan đến chi tiết
 */
-/* #main {
+/* #container {
 
 } */
 
 #header {  
   height: 46px; /* Cao */
   background-color: #000;
-  overflow: hidden;
 }
 
 #nav li {
   display: inline-block; /* Nằm trên 1 dòng */
-  list-style: nones;
+  position: relative;
+}
+
+#nav > li > a {
+    color: #fff;
 }
 
 #nav li a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #fff;
-  padding: 24px 24px;
+  padding: 0px 24px;
   line-height: 46px;
+  display: block;
 }
 
 #nav li a:hover {
@@ -52,18 +55,17 @@ html {
   color: #000000;
 }
 
+#nav .subnav a {
+  color: #000;
+}
+
 #nav .subnav {
-  display: none;
+  /* display: none; */
+  position: absolute;
+  background-color: #fff;
 }
 
-/* .subnav li {
-
+#slider {
+  min-height: 1000px;
+  background-color: #333;
 }
-
-.subnav li a {
-
-}
-
-.subnav li a:hover {
-
-} */
